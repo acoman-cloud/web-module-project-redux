@@ -34,11 +34,11 @@ In this project, you take a fairly complex application used to search a movie da
 
 * [ ] **In movieReducer.js, make sure that we are setting our state by default to initialState.** Otherwise your state will not have the original structure it needs to function!
 
-* [ ] **The MovieList component prints all of our movies to the screen.** Use the connect method here to map the movies state value into props. Replace our static movie variable with that prop.
+* [d] **The MovieList component prints all of our movies to the screen.** Use the connect method here to map the movies state value into props. Replace our static movie variable with that prop.
 
-* [ ] **The Movie component needs to access our list of movies to function.** Map movies to props here as well.
+* [d] **The Movie component needs to access our list of movies to function.** Map movies to props here as well.
 
-* [ ] **Finally, MovieHeader uses appTitle to display the title text.** Connect this component to appTitle and test appTitle is correctly displayed in your app.
+* [d] **Finally, MovieHeader uses appTitle to display the title text.** Connect this component to appTitle and test appTitle is correctly displayed in your app.
 
 
 #### Connecting the Delete and Add Movie actions
@@ -48,14 +48,14 @@ In this project, you take a fairly complex application used to search a movie da
 
 * [ ] **We can delete movies within the Movie Component.** Connect the deleteMovie action through the connect method.
 
-* [ ] **Find the HTML element that should trigger a deletion in the movie component.** Create and connect the necessary event handlers to call deleteMovie on the current movie's id. After setting the state, redirect the user using the push('/movies') command.
+* [d] **Find the HTML element that should trigger a deletion in the movie component.** Create and connect the necessary event handlers to call deleteMovie on the current movie's id. After setting the state, redirect the user using the push('/movies') command.
 
 * [ ] Add in an ADD_MOVIE case to movieReducer.js.
 * [ ] Make this new case return a version of state with new movie values passed in through the payload.
 * [ ] Create an action creator for addMovie in movieActions.js.
 * [ ] Find the component that triggers the adding of a movie and connect the addMovie action.
 * [ ] Create and connect the necessary event handlers to call addMovie.
-* [ ] Add in push('/movies/) after calling your action to trigger a redirect.
+* [X] Add in push('/movies/) after calling your action to trigger a redirect.
 
 #### Build out the favorites reducer
 > *Alright! Now that the movie reducer is complete, you have the chance to build a reducer from scratch to handle favorite movie functionality. We will also work on combining reducers.*
